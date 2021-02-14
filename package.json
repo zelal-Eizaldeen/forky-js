@@ -1,0 +1,29 @@
+{
+  "name": "restaurant-reciepy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.32.7"
+  },
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.592",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.592",
+    "@parcel/packager-css": "^2.0.0-nightly.592",
+    "@parcel/packager-html": "^2.0.0-nightly.592",
+    "@parcel/transformer-css": "^2.0.0-nightly.592",
+    "@parcel/transformer-html": "^2.0.0-nightly.592",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.592",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.592",
+    "@parcel/transformer-sass": "^2.0.0-nightly.592",
+    "postcss": "^8.2.6"
+  }
+}
